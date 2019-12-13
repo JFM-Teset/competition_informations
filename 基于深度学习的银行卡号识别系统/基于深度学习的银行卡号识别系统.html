@@ -1,0 +1,229 @@
+
+<!-- saved from url=(0046)http://www.cnsoftbei.com/plus/view.php?aid=348 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephTwo=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<script type="text/javascript" src="./基于深度学习的银行卡号识别系统_files/terminator2.2.min.js.下载" async="true"></script>
+<script type="text/javascript" src="./基于深度学习的银行卡号识别系统_files/jquery-1.8.3.min.js.下载"></script>
+<script type="text/javascript" src="./基于深度学习的银行卡号识别系统_files/koala.min.1.5.js.下载"></script>
+<title>中国软件杯</title>
+<link href="./基于深度学习的银行卡号识别系统_files/layout.css" rel="stylesheet" type="text/css">
+<link href="./基于深度学习的银行卡号识别系统_files/reset.css" rel="stylesheet" type="text/css">
+<link href="./基于深度学习的银行卡号识别系统_files/css.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./基于深度学习的银行卡号识别系统_files/mobile.css">
+<link rel="stylesheet" href="./基于深度学习的银行卡号识别系统_files/media.css">
+<!-------移动端样式------->
+<link rel="stylesheet" href="./基于深度学习的银行卡号识别系统_files/style.css">
+<script type="text/javascript" src="./基于深度学习的银行卡号识别系统_files/jquery.js.下载"></script>
+<script type="text/javascript" src="./基于深度学习的银行卡号识别系统_files/script.js.下载"></script>
+
+</head>
+
+<body>
+<style>
+	.login_layout_bg{width:100%;height:100%; background:#000; opacity: 0.7; z-index: 999998; position: fixed;top:0;left:0; display: none}
+	.login_layout_div{width:655px;padding:20px 0;background: #fff;border-radius: 5px;-moz-box-shadow:2px 2px 5px #333333; -webkit-box-shadow:2px 2px 5px #333333; box-shadow:2px 2px 5px #333333; position: fixed;top:50%;margin-top:-220px;left:50%;margin-left:-327px; z-index: 999999;display: none}
+	.login_logo_img{width:275px;margin:15px auto;}
+	.login_logo_x1{width:465px;height:26px;margin:5px auto;}
+	.login_list_btn{width:490px;margin:10px auto;}
+	.login_list_btn li{ float: left;width:200px;height:55px; display: block; background: #eb6226; text-align: center; line-height: 55px; border-radius: 5px;margin:15px;}
+	.login_list_btn li a{ font-size: 18px; color: #fff;  font-weight: bold; }
+	.login_p{ color: #666666; font-size: 14px; line-height: 40px; text-align:  center;margin-top:50px; }
+	.login_btn_zc{ background: #1a71b4 !important; }
+	.login_close{ position: absolute;top:15px;right:15px; cursor: pointer}
+</style>
+<div class="login_layout_bg"></div>
+<div class="login_layout_div">
+	<div class="login_close"><img src="./基于深度学习的银行卡号识别系统_files/login_close.jpg"></div>
+	<div class="login_logo_img"><img src="./基于深度学习的银行卡号识别系统_files/login_logo.jpg"></div>
+	<div class="login_logo_x1"><img src="./基于深度学习的银行卡号识别系统_files/login_x1.jpg"></div>
+	<ul class="login_list_btn">
+		<li><a href="http://join.cnsoftbei.com/join/login.php">高校登录</a></li>
+		<li><a href="http://join.cnsoftbei.com/join/company/login.php">企业登录</a></li>
+		<li class="login_btn_zc"><a href="http://join.cnsoftbei.com/join/TOS.php">高校注册</a></li>
+		<li class="login_btn_zc"><a href="http://join.cnsoftbei.com/join/company/TOS.php">企业注册</a></li>
+	</ul>
+	<div class="clear"></div>
+	<p class="login_p">联系我们：010-88559646</p>
+</div>
+<style>
+	.d4{
+ width: 0; 
+ height: 0;
+ border-width: 10px;
+ border-style: solid;
+ border-color: transparent #fff transparent transparent;
+ transform: rotate(180deg); /*顺时针旋转90°*/
+ position: absolute;
+ top:40px;
+ right:-20px;
+
+
+}
+.qq_div{padding:25px 10px 20px 10px; background: #fff; border-radius: 10px;width:125px;position: absolute;top:82px;left:-180px;box-shadow: 0 0 10px #d8d8d8; display: none}
+.wx_div{padding:10px; background: #fff; border-radius: 10px;width:170px;position: absolute;top:135px;left:-220px;box-shadow: 0 0 10px #d8d8d8;  display: none}
+.qq_div h2{ text-align: left;color: #333333; font-size: 14px; border-left: 2px #1a71b4 solid; line-height: 14px;}
+.qq_div p{ text-align: left;color: #333333; font-size: 14px; line-height:26px;}
+</style>
+<script type="text/javascript"> 
+    $(document).ready(function(){
+		
+	$(".fd_div a").mouseover(function(){
+	$(".tc_fd").css("display","none");
+	
+	var attr_c=$(this).attr("tc");
+	$(this).addClass("jg_bq1_hover");
+	$("."+attr_c).css("display","block");;
+    });
+    $(".fd_div a").mouseout(function(){
+	$(".tc_fd").css("display","none");
+    });
+
+
+    $(".login_div a").click(function(){
+	$(".login_layout_bg").css("display","block");
+	$(".login_layout_div").css("display","block");
+    });
+
+     $(".login_close").click(function(){
+	$(".login_layout_bg").css("display","none");
+	$(".login_layout_div").css("display","none");
+    });
+
+    });
+    </script>
+<div class="fd_div">
+	<div class="fd_div_d">
+	<a href="http://www.cnsoftbei.com/plus/view.php?aid=348"><img src="./基于深度学习的银行卡号识别系统_files/xf_1.jpg"></a>
+	<a href="http://www.cnsoftbei.com/plus/view.php?aid=348" tc="qq_div"><img src="./基于深度学习的银行卡号识别系统_files/xf_2.jpg"></a>
+	<a href="http://www.cnsoftbei.com/plus/view.php?aid=348" tc="wx_div"><img src="./基于深度学习的银行卡号识别系统_files/xf_3.jpg"></a>
+	<a href="http://www.cnsoftbei.com/plus/view.php?aid=348"><img src="./基于深度学习的银行卡号识别系统_files/xf_4.jpg"></a>
+	</div>
+	<div class="qq_div tc_fd">
+		<div class="d4"></div>
+		<h2 style="padding-bottom:5px;">  老师群</h2>
+		<p>170086145</p>
+		<div style="border-top:1px #f5f5f5 solid;margin-top:5px;padding-top:15px;"></div>
+		<h2>  学生群</h2>
+		<p>179326524</p>
+		<p>209318323</p>
+		<p>215410234</p>
+	</div>
+	<div class="wx_div tc_fd">
+		<div class="d4"></div>
+		<div class="tc_ewm"><img src="./基于深度学习的银行卡号识别系统_files/ruanjianbei.jpg" style="width:157;height:165;"></div>
+	</div>
+</div>
+<div class="header_top">
+	<div class="header_top_div">
+	<div class="header_top_left">客服电话：010-88559646</div>
+	<div class="header_top_right">
+		<!-- <a href="">注册</a><a href="">登陆</a> -->
+	</div>
+	</div>
+</div>
+<div class="top_header_div">
+<div class="top_header">
+  <div class="logo"><a href="http://www.cnsoftbei.com/plus/view.php?aid=348"><img src="./基于深度学习的银行卡号识别系统_files/logo.png"></a></div>
+  <div class="login_div"><a href="http://www.cnsoftbei.com/plus/view.php?aid=348#" onclick="return false">登录/注册</a></div>
+  <div class="nav_div">
+    <a href="http://www.cnsoftbei.com/" class="nav_div_hover" target="_blank">首页</a>
+    <a href="http://www.cnsoftbei.com/plus/list.php?tid=3" target="_blank">大赛简介</a>
+	<a href="http://www.cnsoftbei.com/plus/list.php?tid=1" target="_blank">新闻动态</a>
+	<a href="http://www.cnsoftbei.com/plus/list.php?tid=4" target="_blank">组织机构</a>
+	<a href="http://www.cnsoftbei.com/plus/list.php?tid=5" target="_blank">往届赛题</a>
+	<a href="http://www.cnsoftbei.com/plus/list.php?tid=7" target="_blank">企业专区</a>
+	<a href="http://www.cnsoftbei.com/plus/list.php?tid=8" target="_blank">高校专区</a>
+	<a href="http://www.cnsoftbei.com/spec/english" target="_blank">English</a>
+  </div>
+
+</div>
+<div class="clear"></div>
+</div>
+
+<!---------------------------------------------------------------------------------------------------------------手机站导航开始---------->
+<div class="sp_header">
+  <div class="sp_logo"><a href="http://www.cnsoftbei.com/plus/view.php?aid=348#"><img src="./基于深度学习的银行卡号识别系统_files/logo.png"></a></div>
+  <div class="sp_nav"> <span></span> <span></span> <span></span> </div>
+</div>
+<div class="sjj_nav">
+  <ul>
+    <li> <a href="http://www.cnsoftbei.com/">首页</a></li>
+    <li> <a href="http://www.cnsoftbei.com/plus/list.php?tid=3">大赛简介</a></li>
+    <li><a href="http://www.cnsoftbei.com/plus/list.php?tid=1">新闻动态</a></li>
+    <li><a href="http://www.cnsoftbei.com/plus/list.php?tid=4">组织机构</a></li>
+    <li><a href="http://www.cnsoftbei.com/plus/list.php?tid=5">往届赛题</a></li>
+    <li><a href="http://www.cnsoftbei.com/plus/list.php?tid=7">企业专区</a></li>
+    <li><a href="http://www.cnsoftbei.com/plus/list.php?tid=8">高校专区</a></li>
+    <li><a href="http://www.cnsoftbei.com/spec/english">English</a></li>
+  </ul>
+</div>
+<!---------------------------------------------------------------------------------------------------------------手机站导航结束----------> 
+
+
+
+<div class="clear"></div>
+<div class="banner_nr"></div>
+<div class="mb_banner"><img src="./基于深度学习的银行卡号识别系统_files/h5_banner.jpg"></div>
+<div class="layout_div" style="background:#fafafa  url(/templets/software/style/images/bg9.jpg) top  center  no-repeat;">
+<div class="layout">
+	<div class="layout_neirong">
+		<div class="neirong_tittle_h2"><div class="mb_list"><a href="http://114.113.126.171/">主页</a> &gt; <a href="http://www.cnsoftbei.com/plus/list.php?tid=2">比赛题目</a> &gt; <a href="http://www.cnsoftbei.com/plus/list.php?tid=29">A组赛题</a> &gt; </div><a href="http://www.cnsoftbei.com/plus/view.php?aid=348" class="mb_list_more"><img src="./基于深度学习的银行卡号识别系统_files/nr_icon.jpg"></a><div class="clear"></div></div>
+		<style>
+.pdf_img img{width:16px !important;height:16px  !important; position: relative;top: 3px; left: -3px;}
+</style>
+        <div class="layout_cont">
+        <h2>基于深度学习的银行卡号识别系统</h2>
+        <h3>时间：2019-03-12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来 源：中国软件杯</h3>
+		<style>
+			.cont_n_p img{
+				text-align:center;
+			}
+			.cont_n_p table,table tr th, table tr td{
+				border:1px solid #000000;
+			}
+			.cont_n_p{word-wrap: break-word;}
+		</style>
+        <div class="cont_n_p">
+
+			<p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 微软雅黑;">第八届大赛--A组赛题</span></strong></span><br></p><p><strong><span style="color: rgb(255, 0, 0);">决赛优化建议（7月2日公布）：</span></strong></p><p><strong><span style="color: rgb(255, 0, 0);"><span style="line-height: 0px; display: none;">﻿</span></span></strong><span style="line-height: 0px; display: none;">﻿</span>1、项目文档（环境搭建、实现思路、算法介绍、训练过程、模型测试指标）</p><p><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong><span style="line-height: 0px; display: none;">﻿</span>2、项目介绍视频（音频解说、条理清晰）<span style="line-height: 0px; display: none;">﻿</span><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong></p><p><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong><span style="line-height: 0px; display: none;">﻿</span>3、项目源码规范（结构清晰、命名规范、代码可读性）<span style="line-height: 0px; display: none;">﻿</span><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong></p><p><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong><span style="line-height: 0px; display: none;">﻿</span>4、用户图形界面（用户交互、UI设计）<span style="line-height: 0px; display: none;">﻿</span><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong></span></strong></p><p><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong></span></strong><span style="line-height: 0px; display: none;">﻿</span>5、项目源码精度（50张测试图片）<span style="line-height: 0px; display: none;">﻿</span><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></span></strong></span></strong></span></strong></span></strong></p><p><strong><span style="color: rgb(255, 0, 0); font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong><span style="line-height: 0px; display: none;">﻿</span>加分项：是否能识别空格<span style="line-height: 0px; display: none;">﻿</span><strong><span style="color: rgb(255, 0, 0); font-family: 仿宋_gb2312; font-size: 19px;"><span style="line-height: 0px; display: none;">﻿</span></span></strong></p><p><span style="line-height: 0px; display: none;">﻿</span><span style="line-height: 0px; display: none;">﻿</span></p><p>&nbsp;</p><p><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="color: rgb(255, 0, 0);"><strong><span style="font-family: 仿宋_gb2312; font-size: 19px;"><strong><span style="color: rgb(255, 0, 0);"><strong><span style="color: rgb(255, 0, 0);"><strong><span style="color: rgb(255, 0, 0);">初赛作品提交要求下载（6月2日更新）</span></strong></span></strong></span></strong></span></strong></span></strong></span></strong></span></strong></p><p style="line-height: 16px;"><img src="./基于深度学习的银行卡号识别系统_files/1566183947295341.gif"><a href="http://www.cnsoftbei.com/upload_files/article/155/1_20190602140654_gpyr7.doc">基于深度学习的银行卡号识别系统文件提交细则6.2.doc</a></p><p><br></p><table width="553"><tbody><tr class="firstRow" style="height: 50px;"><td width="553" valign="top" style="padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: transparent;" colspan="2"><p style="text-align: left; line-height: 30px;"><strong><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 21px;">赛题</span></strong><strong><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 21px;">名称:基于深度学习的银行卡号识别系统</span></strong></p><p style="text-align: left; line-height: 30px;"><strong><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 21px;">组类：&nbsp;A&nbsp;本科及以上&nbsp;&nbsp;&nbsp;</span></strong></p></td></tr><tr><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">赛题简介：介绍整个赛题的思路和整体要求</span></p></td><td width="406" valign="top" style="border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">人类对</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">外界信息</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">的认识及感知</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">，最基本的就</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">来自于视觉，因此对视觉信息的搜集与处理，</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">一直是人类认识世界、认识规律的重要手段。人工智能技术，</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">通过对视觉信息的采集，对图形图像</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">信息</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">做</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">科学的筛选、</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">比对</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">并</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">分析，</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">然后</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">经过</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">算法（</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">深度学习</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">）</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">、理解和思考之后，</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">将真实的现实内容呈现在计算机中</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">。&nbsp;</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;&nbsp;</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">随着人工智能、深度学习技术的发展，人工智能技术在视觉领域方面的应用日益突出，得到了广泛的关注和研究。本题要求同学们使用基于深度学习的视觉识别技术，拓展现有的光学识别技术（OCR）来完成一个识别银行卡号的系统，此系统包括数据集处理、银行卡号定位检测、银行卡号识别三部分。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">本赛题要求使用深度学习技术体系完成，本题的目的不仅在于比</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">试</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">，更重视参赛同学的个人提升。</span></p><p style="text-align: left; line-height: 30px;"><span style="background: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: verdana; font-size: 15px;">&nbsp;</span></p></td></tr><tr style="height: 236px;"><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">赛题业务场景：描述赛题相关的真实企业业务背景。从真实场景中，适当简化或者提炼出适合比赛的赛题场景</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">由于移动互联网的迅速发展，移动支付成为最主流的支付方式之一，同时在生活中，很多场景会涉及到银行卡的绑定与识别。例如：</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">场景一：手机支付绑定银行卡</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">微信支付或支付宝支付，均需提前绑定银行卡，通过扫一扫功能，扫描银行卡，自动识别卡号，进行后续的验证操作。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">场景二：银行转账业务</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">银行进行业务前，都需要提供银行卡，扫描银行卡，进行卡号识别操作。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">银行卡的智能识别需求非常广泛，它不仅可以提高工作效率、减少人工成本，同时也可以提升用户体验。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">现有的各大科技公司都提供了对应的接口来实现字符识别功能，本题结合企业应用，同时考虑到同学们的资源限制，要求只实现银行卡号定位及银行卡号识别两个核心功能。</span></p></td></tr><tr><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">功能性需求</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">1.数据集处理</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">根据本赛题提供的数据集（共1084张卡号截图及标签）实现数据增强模块，将数据集中的每一张图片使用数据增强方式拓展为80张图片，为之后的图像识别训练提供充足的数据样本，并且该模块程序能够继续处理新加入的数据样本。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">2、程序定位银行卡卡号</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">实现银行卡号文本的检测定位，此模块能够将拍摄的银行卡卡号部分检测出来，并截取相应部分供后续的识别模型使用（银行卡尽量充满图片，横向放置），能够读取放入到文件夹的银行卡图片。</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">3.程序实现银行卡号字符识别</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">此模块要求使用数据增强后的数据集训练字符识别模型，最终模型能够识别出赛题提供的测试银行卡卡号以及自拍的银行卡卡号。</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">4.采用GUI（图形用户界面）</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">提供良好的用户交互式界面实现。</span></p><p style="text-align: left; line-height: 30px; text-indent: 31px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p></td></tr><tr><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">非功能性需求</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">1.程序源码要求结构清晰，模块区分较为明确，提供便于读者阅读的源码指南，及项目使用文档。</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">2.使用人工智能领域深度学习技术进行实现，提供文本检测模型、文本识别模型。</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">3.使用GPU(图形处理器)加速计算。</span></p><p style="margin: 0px 0px 0px 15px; text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">4.提供模型训练过程截图，模型测试指标信息。</span></p><p style="line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p></td></tr><tr style="height: 202px;"><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">其他限制条件：开发环境、实验平台、开发语言、数据库、编译器等限制条件</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（请尽量明确）</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="margin: 0px 0px 0px 15px; text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">1.操作系统可选Windows、Linux。</span></p><p style="margin: 0px 0px 0px 15px; text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">2.开发语言不限（推荐使用Python3）。</span></p><p style="margin: 0px 0px 0px 15px; text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">3.推荐使用TensorFlow或Keras实现模型训练，但不限其它机器学习工具。</span></p><p style="margin: 0px 0px 0px 15px; text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">4.请标注系统中哪些部分使用了开源代码、模型及出处。</span></p></td></tr><tr style="height: 175px;"><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">测试数据或平台：提供给参赛者的测试环境和测试数据。（可提供电子档）</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">提供源数据集1000张左右，原始数据集为人工处理银行卡号截图，样例如下（文件名为人工手动标注号码）：</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;"><img width="400" height="121" title="1.jpg" src="./基于深度学习的银行卡号识别系统_files/1566183947335969.jpg"></span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">提供测试银行卡，样例如下：</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;"><br></span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;<img width="400" height="301" title="2.jpg" src="./基于深度学习的银行卡号识别系统_files/1566183947579548.jpg"></span></p></td></tr><tr style="height: 91px;"><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: center; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">开发所需设备及设备指标需求说明</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">1.推荐数据处理部分使用主流配置（i5及以上）电脑即可。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">2.图片拍摄可使用移动设备。</span></p><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">&nbsp;</span></p></td></tr><tr style="height: 91px;"><td width="147" valign="top" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">其他要求</span></p></td><td width="406" valign="top" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0); padding: 0px; background-color: transparent;"><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">1.不能使用市场上各公司在线api接口进行功能实现。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">2.鼓励使用开源工具、算法。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">3.模型在数据集中的准确率要求达到90%，准确率较高的需要模型同样有泛化能力，能够识别自拍的银行卡卡号。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">4.评分标准：</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（1）数据集处理模块15分；</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（2）程序定位银行卡卡号模块15分；</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（3）程序实现银行卡号字符识别15分；</span></p><p style="margin: 0px 0px 0px 15px; line-height: 30px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（4）采用GUI（图形用户界面）15分；</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（5）非功能性每一条建议5分，共20分；</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">（6）综合20分，系统最终达到的准确率、程序运行速度、界面友好度、代码规范性等。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">5.提供完整项目的源代码。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">6.不得作弊抄袭。</span></p><p style="text-align: left; line-height: 30px; text-indent: 15px;"><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">7.参赛者需</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">制作项目展示的媒体文件，内容包括需求文档、设计文档、使用说明书等软件开发文档。</span></p></td></tr></tbody></table><p>&nbsp;<span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;"><br></span></p><p><img src="./基于深度学习的银行卡号识别系统_files/1566183947501940.gif"><a style="color: rgb(255, 0, 0); text-decoration: underline;" href="http://www.cnsoftbei.com/upload_files/article/155/1_20190312170354_p8wwl.rar"><span style="color: rgb(255, 0, 0);">资料下载.rar</span></a></p><p><br></p><p><span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;">出<span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;">题企业：</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 15px;">北京课工场教育科技有限公司<br></span></span></p><p>答疑方式：刘老师&nbsp;&nbsp;电话：15101673930&nbsp;&nbsp;&nbsp;邮箱：<a style="margin: 0px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); text-transform: none; line-height: 30px; text-indent: 0px; letter-spacing: normal; font-family: 微软雅黑; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;" href="https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxcheckurl?requrl=http%3A%2F%2Fpai.pin%40kgc.cn&amp;skey=%40crypt_fa8c16bb_09a2c4538c202511c491c66eacef2da1&amp;deviceid=e273455000700295&amp;pass_ticket=GH66KcaO8zFD1r4WRlhB7ObChnILy7MDTm5YFxrMOmQ0zkNJp2CEKWcjwkgCSBDP&amp;opcode=2&amp;scene=1&amp;username=@37cb225bd2972110434ce3a8d09c7e4d53cb88da60261abb234815f27228fc40" target="_blank">pai.pin@kgc.cn</a><span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;"><br></span></span></span></p><p><span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 15px;">官方答疑QQ群：529832375<span style="line-height: 0px; display: none;">﻿</span><span style="line-height: 0px; display: none;">﻿</span></span></span></p><p>&nbsp;</p>
+
+        </div>
+    </div>
+	</div>
+    <div class="layout_neirong_more">
+        <div><span>上一篇:</span>上一篇：<a href="http://www.cnsoftbei.com/plus/view.php?aid=345">基于GIS技术的生态环境演进过程可视化实现</a> </div>
+        <div><span>下一篇:</span>下一篇：<a href="http://www.cnsoftbei.com/plus/view.php?aid=354">基于物联网的视频系统的实现</a> </div>
+    </div>
+</div>
+
+</div>
+<div class="foot_div">
+  <div class="foot">
+    <div class="foot_left1">
+    	<h2>主办单位</h2>
+		<p>工业和信息化部</p><p>教育部</p><p>江苏省人民政府</p>
+    </div>
+    <div class="foot_left2">
+    	<h2>承办单位</h2>
+    	<p>中国电子信息产业发展研究院</p><p>江苏省工业和信息化厅</p><p>江苏省教育厅</p><p>教育部高等学校计算机类专业教学指导委员会</p><p>信息技术新工科产学研联盟</p>
+    </div>
+    <div class="foot_left3">
+    	<h2>执行单位</h2>
+    	<p>中国信息化周报</p><p>中国（南京）软件谷</p><p>江苏软件产业人才发展基金会</p><p>南京航空航天大学</p>
+    </div>
+    <div class="foot_left4">
+    	<h2>关于我们</h2>
+    	<p>客服电话：010-88559646</p><p>邮编：100048</p><p>联系地址：北京市海淀区紫竹院路66号赛迪大厦18层</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="cy2">网站备案/许可证号：京ICP备05039896号-10 &nbsp;&nbsp;&nbsp; 京公网安备 11010802020860号</div>
+</div>
+
+
+</body></html>
